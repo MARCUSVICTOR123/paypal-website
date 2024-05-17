@@ -1,0 +1,477 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-style: none;
+    color: black;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    margin: 5px;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+.PAYPAL img{
+    width: 100px;
+    
+    
+}
+
+.personal{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.personal i{
+    font-size: 20px;
+    
+}
+
+
+.button1{
+    border: 1px solid blue;
+    border-radius: 20px;
+    background-color: white;
+    
+}
+
+
+.button2{
+    border: 1px solid blue;
+    border-radius: 30px;
+    background-color: darkblue;
+    color: white;
+    
+}
+
+
+
+.button button{
+    padding: 13px 30px;
+}
+
+
+
+.button2:hover{
+    background-color: rgb(45, 45, 95);
+}
+
+
+
+.simpler{
+    text-align: center;
+    padding: 100;
+    background-image: url(wall.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: 2000px;
+    background-position: right;
+    
+    
+}
+
+
+.simpler h3{
+    font-size: 40px;  
+    color: white;
+    padding: 50px;
+    
+}
+
+
+.sign{
+    padding: 50px;
+
+    
+}
+
+
+
+.sign button{
+    border: 1px solid rgb(74, 74, 223);
+    background-color: rgb(80, 80, 245);
+    border-radius: 30px;
+    padding: 13px 70px;
+    color: white;
+    transition: all 1s;
+    
+    
+}
+
+button:hover{
+    background-color: rgb(56, 56, 221); 
+}
+
+
+
+.sign p{
+    padding: 30px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+.sign p span{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+
+.monday{
+    padding: 80px;
+    text-align: center;
+}
+
+
+.monday h3{
+    font-size: 40px;
+    padding: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 2;
+}
+
+
+.monday .citizen img{
+    padding: 20px;
+}
+
+
+
+.monday h4{
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1;
+}
+
+
+.monday p{ 
+    margin: 20px;
+    
+}
+
+
+
+.monday button{
+    padding: 10px;
+    border-radius: 20px;
+    color: blue;
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    border: 1px solid blue;
+    
+}
+
+
+.pay:hover{
+    text-decoration: underline;
+}
+
+
+
+#connects{
+   text-align: center;
+   background-color: rgb(238, 233, 233);
+   
+}
+
+
+
+.connects h2{
+    font-weight: lighter;
+    padding: 10px;
+}
+
+
+.connects h5{
+    font-weight: lighter;
+}
+
+
+.connects i{
+   font-size: 20; 
+   
+}
+
+.learn{
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    overflow: hidden;
+
+
+}
+
+.join{
+    padding: 30px;
+    
+}
+
+.worldwide{
+    background-color: rgb(54, 54, 146);
+}
+
+.worldwide h1{
+    color: white;
+    padding: 70px;
+    font-weight: lighter;
+    
+}
+
+.world{
+    display: flex;  
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    
+    
+}
+.world2{
+    padding-bottom: 60px;
+    
+}
+
+.world h2{
+    color: white;
+    font-weight: lighter;
+    padding: 8px;
+    
+
+}
+.world p{
+    color: white;
+    text-align: justify;
+    
+    
+}
+
+.world2 h4{
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+
+.join button{
+    border: 1px solid blue;
+    border-radius: 20px;
+    padding: 10px;
+    color: blue;
+    width: 120px;
+    background-color: white;
+    
+}
+
+.sign h2 p{
+    color: black;
+    font-size: 20px;
+}
+
+
+.help{
+   padding: 50px;
+   text-align: center;
+   
+}
+
+.help ul{
+    list-style: none;
+    display: flex;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.help ul li a{
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.help img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 40px;
+}
+
+.help ul li a:hover{
+    text-decoration: underline;
+
+}
+
+
+
+hr{
+    margin: 10px;
+}
+
+.legal{
+  display: flex;
+}
+.legal{
+    padding: 5px;
+    
+}
+
+.legal p{
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 500px) {
+    .PAYPAL img{
+        width: 80px;
+        text-align: center;
+    }
+    .button button{
+        padding: 10px 20px;
+    } 
+
+    .personal h4{
+        display: none;
+        
+    }
+    
+    
+    .simpler h3{
+        font-size: 20px;  
+        color: black;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .sign{
+        padding: 20px;
+    }
+
+    .sign button{
+       padding: 10px 10px;
+    }
+
+    .sign p{
+        font-size: 12px;
+    }
+    .sign p span{
+        font-size: 15px;
+        display: flex;
+    }
+
+
+    .simpler{
+        height: 400px;
+        background-size: 1000px;
+        
+        
+        
+    }
+
+    .monday h3{
+        font-size: 20px;
+        padding: 20px;
+    }
+
+    .learn{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 1;
+
+    
+    
+    }
+
+    .worldwide h1{
+        color: white;
+        padding: 20px;
+        
+    }
+
+    .world{
+        display: flex;  
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+        
+        
+    }
+    .help ul{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .legal p{
+        width: 20px;
+        height: 20px;
+        
+    
+        
+    
+    }
+    .legal ul li a{align-items: center;
+        text-align: left;
+        
+        display: flex;
+        flex-direction: row;
+        
+      }
+
+      .button2{
+       display: none;
+    }
+
+  
+    
+    
+    
+        
+        
+    
+      
+    
+    
+}    
+
+
+    
+
+    
+    
+
+ 
+ 
